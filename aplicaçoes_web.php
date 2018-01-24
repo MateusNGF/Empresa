@@ -50,7 +50,7 @@ class Client {
 						$this->Idade = $Idade;
 						$this->CPF   = $CPF;
 						return true;
-					}
+                    }
 				}
 			}
 		} catch (Exception $ERR_SET_CLIENT) {
